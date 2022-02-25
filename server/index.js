@@ -1,3 +1,23 @@
+// 김베인 어워드 서버
+// 김베인이 1년간 오프라인 만남을 가진 사람들에게 주는 상
+// 한번 만날 떄마다 큐알코드를 사용하여 웹에 접속한 후 Oauth를 통하여 가입
+// 이미지, 장소, 시간, 이름 등을 기록
+// 매년 12월 30일에 총 결산 진행
+// 가장 많이 만난 사람 1,2,3위에게 선물 증정
+
+// 필요한 것
+// 물터 구글Oauth mySql
+// api
+// user, image, QR code,
+// 게시판 사용할건가?
+// 쪽지 기능?
+// 구글 맵 api
+// 웹소켓 채팅기능?
+// 다른 것은 뭐가 있을까나~
+
+// 클라이언트 사이드
+// remix라든가 써보고 싶긴한데 일단 js로 만들고 typescript 부터 해보고 그 담에 리믹스를 쓰든 넥스트js를 쓰던 넉스트를 쓰던
+
 require("dotenv").config();
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
