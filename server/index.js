@@ -18,14 +18,16 @@
 // 클라이언트 사이드
 // remix라든가 써보고 싶긴한데 일단 js로 만들고 typescript 부터 해보고 그 담에 리믹스를 쓰든 넥스트js를 쓰던 넉스트를 쓰던
 
+// 2022.02.26 추가해야할 것들을 살펴보자
+// 패키지점제이슨
+// 클라이언트사이드 어떻게??
+
 require("dotenv").config();
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const express = require("express");
 const app = express();
 const fs = require("fs");
-// const multer = require("multer");
-// const upload = multer({dest: "uploads/"});
 
 const DB = require("./config/config");
 const boardRouter = require("./routes/board");
